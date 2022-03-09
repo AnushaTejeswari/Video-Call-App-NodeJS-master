@@ -13,7 +13,6 @@ app.get( '/', ( req, res ) => {
     res.sendFile( __dirname + '/index.html' );
 } );
 
-
 io.of( '/stream' ).on( 'connection', stream );
 const port =process.env.PORT || 3000
 server.listen( port );

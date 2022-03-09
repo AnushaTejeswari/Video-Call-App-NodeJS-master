@@ -421,7 +421,7 @@ window.addEventListener( 'load', () => {
 
         //When user clicks the 'Share screen' button
         document.getElementById( 'share-screen' ).addEventListener( 'click', ( e ) => {
-            e.preventDefault();
+            e.preventDefault(); 
 
             if ( screen && screen.getVideoTracks().length && screen.getVideoTracks()[0].readyState != 'ended' ) {
                 stopSharingScreen();

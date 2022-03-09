@@ -89,7 +89,7 @@
 .remote-video:hover + .remote-video-controls,
 .remote-video-controls:hover{
     visibility: visible;
-}
+} 
 
 
 .local-video{
